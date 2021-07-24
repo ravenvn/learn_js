@@ -10,6 +10,8 @@ console.log(1 + 2);
 // Hỏi tổng số táo còn lại là bao nhiêu.
 
 // Variable. Biến. => biến đổi.
+// Quy tắc đặt tên: tên biến viết thường, nếu có nhiều hơn 1 từ, thì cách nhau bởi dấu _ hoặc viết liền nhau, từ sau sẽ viết hoa chữ cái đầu.
+// Ví dụ: my_beautiful_dog hoặc myBeautifulDog. Ưu tiên cách viết thứ 2 là cách viết chuẩn.
 
 var apple_on_table = 3; // biến địa chỉ khác. 0xx293xxsdd
 apple_on_table = apple_on_table - 1;
@@ -19,6 +21,7 @@ var sum_apple = apple_on_table + apple_in_garden;
 console.log(sum_apple);
 
 // Const Hằng số => Không đổi.
+// Quy tắc đặt tên: Viết hoa hết toàn bộ, 
 const MAX_AGE = 200;
 MAX_AGE = MAX_AGE + 1;
 console.log(MAX_AGE);
@@ -66,7 +69,11 @@ var x = 8;
 console.log(x--);
 console.log(x);
 
-// 
+// Nối chuỗi
+var x = 'Hello';
+var y = "Mickey";
+var z = x + ' ' + y; // nối thêm dấu ' ' để 2 từ k dính liền nhau.
+console.log(z);
 
 
 
