@@ -26,6 +26,8 @@ const MAX_AGE = 200;
 MAX_AGE = MAX_AGE + 1;
 console.log(MAX_AGE);
 
+console.log('abc')
+
 // Data types : kiểu dữ liệu RAM  4G ->
 // 1 bit: 0, 1. bytes: 8 bit, kb => 1000 bytes, 1G = 1024 bytes
 // Cố định kích thước bộ nhớ. 
@@ -75,6 +77,64 @@ var y = "Mickey";
 var z = x + ' ' + y; // nối thêm dấu ' ' để 2 từ k dính liền nhau.
 console.log(z);
 
+// kiểu dữ liệu: number, string, boolean, object, undefined, null, symbol
+var a = null;
+console.log(typeof(a))
+// array: mảng
+var carBrands = ['Mec', 'Bim', 'Toyota', 'Hyndai', 'Audi', 'Mazda'];
+// đếm từ 0->5, 6
+for (var i = 0; i < carBrands.length; i += 3) {
+  console.log(carBrands[i])
+}
+
+// step: i = 0;
+// 2: kiem tra 0 < 6 ? 
+// 3: Mẹc
+// 4: +1.
+// i = 1
+// carBrands[1] = 
+// i = 5;
+// kiểm tra 5 < 6?
+// in ra vị trị thứ 5 => Mazda 
+// i = 6 
+// kiểm tra 6 < 6 ? 0
+// kết thúc vòng lặp.
+
+var carBrands = ['Mec', 'Bim', 'Toyota', 'Hyndai', 'Audi', 'Mazda'];
+for (var i = 5; i >= 0; i--) {
+  console.log(carBrands[i])
+}
+
+var carBrands = ['Mec', 'Bim', 'Toyota', 'Hyndai', 'Audi', 'Mazda'];
+for (var carBrand of carBrands) {
+  console.log(carBrand)
+}
+
+
+// cam, táo, xoài, mận.
+var fruits = ['cam', 'xoài', 'táo', 'mận'];
+for (var i = 0; i < fruits.length; i++) {
+  console.log(fruits[i])
+}
+
+var fruits = ['cam', 'xoài', 'táo', 'mận'];
+for (var fruit of fruits) {
+  console.log(fruit)
+}
+
+
+
+console.log(typeof(fruits))
+
+var x = 2;
+
+function sum(a, b) {
+  return a + b;
+}
+
+
+console.log(sum(4, 5))
+4 + 5
 
 
 
