@@ -136,6 +136,39 @@ function sum(a, b) {
 console.log(sum(4, 5))
 4 + 5
 
+var xinh_gai = ['Hiền', 'Lan', 'Huyền', 'Phương', 'Đào', 'Tuyết', 'Mận']
+var xau_gai = ['Hương', 'Anh', 'Mai']
+var num_1_10 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+var thuc_an_ngon = ['Tôm', 'Cua', 'Lươn', 'Gà']
+var thu_uong_ngon = ['Pepsi']
+
+// console.log(thuc_an_ngon[3])
+
+// console.log(num_1_10.length)
+
+// for
+// console.log(xinh_gai[0])
+// console.log(xinh_gai[1])
+// console.log(xinh_gai[2])
+// console.log(xinh_gai[3])
+
+// for 
+for (var i = 0; i < xinh_gai.length; i++) {
+  console.log(xinh_gai[i])
+}
+
+// 1. i = 0
+// 2. so sánh 0 < 7 ? true => in ra xinh_gai[0] => Hiền.
+// 3. i = 1
+// 4. so sánh 1 < 7 ? true => in ra xinh_gai[1] => Lan
+// 5. i = 2
+// 6. so sánh 2 < 7 ? true => in ra xinh_gai[2] => Huyền
+//...
+// 8. i = 6 
+// 9. so sánh 6 < 7 ? true => in ra xinh_gai[6] => Mận
+// 10. i = 7
+// 11. so sánh 7 < 7 ? false => thoát khỏi vòng lặp.
+
 
 
 
