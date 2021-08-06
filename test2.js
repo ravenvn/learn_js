@@ -169,7 +169,54 @@ for (var i = 0; i < xinh_gai.length; i++) {
 // 10. i = 7
 // 11. so sánh 7 < 7 ? false => thoát khỏi vòng lặp.
 
+var colors = [ 'red', 'green', 'black', 'blue', 'white'];
+// colors.push('violet')
+// colors.pop()
+// colors = colors.slice(1)
+// colors.shift()
+var deletedColors = colors.splice(1, 2)
+console.log(colors)
+console.log(deletedColors)
 
+var colors = [ 'red', 'green', 'black', 'blue', 'white']
+var OS = [ 'Windows', 'macOS', 'Linux'];
+var all = colors.concat(OS);
+console.log(colors);
+
+// hard code. code cứng.
+
+var players = ['Messi','Ronaldo','Mbappe','Neymar','Haaland'];
+players = players.slice(1)
+console.log(players)
+
+
+var sports = ['football', 'basketball', 'golf', 'tennis', 'volleyball'];
+for (var i = 4; i >= 0; i--) {
+    console.log(sports[i]);
+}
+
+
+var smartphone = ['apple', 'samsung', 'opple', 'vsmart', 'redmi'];
+for (var i = smartphone.length - 1; i >= 0; i--) {
+  console.log(smartphone[i])
+}
+
+var smartphones = ['apple', 'samsung', 'OPPO', 'vsmart', 'redmi', ];
+// smartphones.unshift('nokia')
+smartphones.splice(2, 0, 'nokia', 'yamaha')
+
+console.log(smartphones)
+
+const vans = ['🚚', '🚛'];
+const trucks = ['🚙', '🚗', '🤪', '🤣'];
+const automobiles = vans.concat(trucks);
+console.log(automobiles)
+
+var game = ['cod', 'pubg', 'lmht', 'csgo'];
+for(var i = 0; i < game.length - 1; i++)
+{
+    console.log(game[i])
+}
 
 
 
