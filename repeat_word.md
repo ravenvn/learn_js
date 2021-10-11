@@ -1,0 +1,3 @@
+repeatWords: Takes two parameters, a String and an int, and returns a String. The returned String has each word of the parameter String repeated a number of times equal to the int parameter. The int parameter is assumed to be non-negative. There is a space character placed between each repeated word, and all other characters stay the same. A word is defined as a contiguous sequence of letters.
+
+HW2.repeatWords("'How are you?', I asked.", 2) ==> "'How How are are you you?', I I asked asked."
